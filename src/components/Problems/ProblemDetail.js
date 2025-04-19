@@ -82,6 +82,13 @@ function ProblemDetail() {
                 <p className="whitespace-pre-wrap">{problem.description}</p>
             </div>
 
+            {problem.codeSnippet && (
+                <div className="mb-8">
+                    <h2 className="text-xl font-semibold mb-2">Code Snippet</h2>
+                    <pre className="bg-gray-100 p-4 rounded-lg overflow-x-auto whitespace-pre-wrap">{problem.codeSnippet}</pre>
+                </div>
+            )}
+            
             {currentUser && (
                 <div className="mb-8">
                     <h2 className="text-xl font-semibold mb-4">Submit Solution</h2>
@@ -168,4 +175,4 @@ function ProblemDetail() {
     );
 }
 
-export default ProblemDetail; 
+export default ProblemDetail;
