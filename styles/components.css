@@ -1,0 +1,42 @@
+.navbar {
+    background-color: #ffffff;
+    border-bottom: 2px solid #000000;
+    padding: 16px 0;
+}
+
+.problem-card {
+    transition: all 0.2s;
+}
+
+.problem-card:hover {
+    transform: translate(-2px, -2px);
+    box-shadow: 6px 6px 0px #000000;
+}
+
+.code-editor {
+    border: 2px solid #000000;
+    background-color: #1a1a1a;
+    color: #ffffff;
+    font-family: monospace;
+    padding: 16px;
+}
+
+.notification {
+    position: fixed;
+    bottom: 24px;
+    right: 24px;
+    padding: 16px;
+    border: 2px solid #000000;
+    background-color: #ffffff;
+    box-shadow: 4px 4px 0px #000000;
+    animation: slideIn 0.3s ease-out;
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateX(100%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}

@@ -1,0 +1,62 @@
+body {
+    background-color: #f7f3f0;
+    font-family: system-ui, -apple-system, sans-serif;
+}
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+
+.btn {
+    padding: 8px 16px;
+    border: 2px solid #000000;
+    background-color: #ffffff;
+    color: #000000;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s;
+    box-shadow: 3px 3px 0px #000000;
+}
+
+.btn:hover {
+    transform: translate(-2px, -2px);
+    box-shadow: 5px 5px 0px #000000;
+}
+
+.btn-primary {
+    background-color: #ffd12e;
+}
+
+.card {
+    background-color: #ffffff;
+    border: 2px solid #000000;
+    box-shadow: 4px 4px 0px #000000;
+    padding: 16px;
+    margin-bottom: 16px;
+}
+
+.button {
+    padding: 8px 16px;
+    border: 2px solid #000000;
+    background-color: #ffd12e;
+    color: #000000;
+    font-weight: 600;
+    box-shadow: 3px 3px 0px #000000;
+    transition: all 0.3s ease;
+}
+
+.button:hover {
+    transform: translate(-2px, -2px);
+    box-shadow: 5px 5px 0px #000000;
+}
+
+.button-secondary {
+    background-color: #ffffff;
+}
+
+.imglogo {
+    width: 70px;
+    height: 70px;
+}
