@@ -114,9 +114,10 @@ Contributions are what make the open-source community such an amazing place to l
 
 ## 📬 Contact
 
-**Keshav Verma** **&** **Vaibhav Bedre**\
+**Keshav Verma** \
 Email: [keshavkamalverma@gmail.com](mailto\:keshavkamalverma@gmail.com)\
 GitHub: Keshav-Verma-06 \
+**Vaibhav Bedre**
 Email:[vaibhavbedre2005@gmail.com](mailto\:vaibhavbedre2005@gmail.com)\
 GitHub: https://github.com/vaibhavb2710
 
